@@ -17,7 +17,7 @@ A native macOS menu bar app for exploring how your MacBook's battery changes ove
 - **Restore from backup:** A restore option is included, but **treat it as experimental until tested with disposable data**.
 
 ## Screenshots
-![Battery History Dashboard](screenshots/24-hour-BatteryGraph.jpg)
+![Battery History Dashboard](Screenshots/24-hour-BatteryGraph.jpg)
 
 ## Requirements
 
