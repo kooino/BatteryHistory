@@ -17,12 +17,7 @@ A native macOS menu bar app for exploring how your MacBook's battery changes ove
 - **Restore from backup:** A restore option is included, but **treat it as experimental until tested with disposable data**.
 
 ## Screenshots
-
-Screenshots will be added before the first public release.
-
-<!-- Example once screenshots are added:
-![Battery History dashboard](docs/images/dashboard.png)
--->
+![Battery History Dashboard](screenshots/24-hour-BatteryGraph.jpg)
 
 ## Requirements
 
@@ -37,7 +32,7 @@ The current development machine uses Apple silicon. Intel Mac support has not ye
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/BatteryHistory.git
+   git clone https://github.com/kooino/BatteryHistory.git
    cd BatteryHistory
    ```
 
