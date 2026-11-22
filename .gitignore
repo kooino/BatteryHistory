@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode and Swift build output
+DerivedData/
+build/
+.build/
+.swiftpm/
+*.xcuserstate
+**/xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Personal battery history and exported data (any directory)
+**/sessions.json
+**/batterySamples.json
+**/historicalSamples.json
+**/historicalScreenOn.json
+**/sessions.csv
+**/BatteryHistory-Sessions*.csv
+**/*.PLSQL
+**/*.PLSQL-*
+**/*.PLSQL.gz
+**/BatteryHistoryBackup/
+**/MacBatteryHistory/
+**/BeforeRestore-*/
+**/BatteryHistory-20??-??-??/
+
+# Local logs and environment secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# Local temporary files
+*.swp
+*.swo
+*~
