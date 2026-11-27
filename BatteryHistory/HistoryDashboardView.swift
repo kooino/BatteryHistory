@@ -52,18 +52,13 @@ struct HistoryDashboardView: View {
         return tracked.reduce(0, +) / Double(tracked.count) / 3600
     }
 
+  
     private var chartPoints: [BatteryChartPoint] {
-        var segment = 0
-        var previousDate: Date?
-        return samples.map { sample in
-            if let previousDate,
-               sample.timestamp.timeIntervalSince(previousDate) > 1200 {
-                segment += 1
-            }
-            previousDate = sample.timestamp
-            return BatteryChartPoint(sample: sample, segment: segment)
+        samples.map { sample in
+            BatteryChartPoint(sample: sample, segment: 0)
         }
     }
+
 
     var body: some View {
         ScrollView {
