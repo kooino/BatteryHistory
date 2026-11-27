@@ -17,12 +17,7 @@ A native macOS menu bar app for exploring how your MacBook's battery changes ove
 - **Restore from backup:** A restore option is included, but **treat it as experimental until tested with disposable data**.
 
 ## Screenshots
-
-Screenshots will be added before the first public release.
-
-<!-- Example once screenshots are added:
-![Battery History dashboard](docs/images/dashboard.png)
--->
+![Battery History Dashboard](Screenshots/24-hour-BatteryGraph.jpg)
 
 ## Requirements
 
@@ -32,12 +27,37 @@ Screenshots will be added before the first public release.
 
 The current development machine uses Apple silicon. Intel Mac support has not yet been verified.
 
+
+## Download and install
+
+**[⬇️ Download Battery History (GitHub Releases)](https://github.com/kooino/BatteryHistory/releases)**
+
+To install Battery History:
+
+1. Open the Releases page using the link above.
+2. Download `BatteryHistory-v0.1.0.zip` from the latest release.
+3. Extract the ZIP file.
+4. Drag `BatteryHistory.app` into your Applications folder.
+5. Open Battery History from Applications.
+
+### macOS security notice
+
+Battery History is currently distributed without Apple Developer ID notarization.
+
+macOS may block the app on first launch because Apple cannot verify its developer.
+
+If you trust the downloaded application, try opening it once, then go to **System Settings → Privacy & Security → Open Anyway** and follow the confirmation prompts.
+
+Do not disable Gatekeeper globally.
+
+**Note:** Battery History v0.1.0 is an early preview. Some features, including backup restoration, are still being tested.
+
 ## Build and run
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/BatteryHistory.git
+   git clone https://github.com/kooino/BatteryHistory.git
    cd BatteryHistory
    ```
 
